@@ -25,7 +25,6 @@
         color: #1565c0;
         margin-bottom: 25px;
     }
-
     form {
         max-width: 900px;
         margin: auto;
@@ -35,7 +34,6 @@
         box-shadow: 0 8px 20px rgba(0,0,0,0.15);
         backdrop-filter: blur(5px);
     }
-
     .question {
         background-color: #f9f9f9;
         padding: 18px;
@@ -45,18 +43,15 @@
         box-shadow: 0 3px 8px rgba(0,0,0,0.08);
         transition: transform 0.2s ease;
     }
-
     .question:hover {
         transform: translateY(-3px);
         box-shadow: 0 6px 15px rgba(0,0,0,0.12);
     }
-
     .question p {
         margin: 0 0 12px;
         font-weight: 600;
         font-size: 1.05em;
     }
-
     input[type="text"] {
         width: 100%;
         padding: 10px;
@@ -67,13 +62,11 @@
         box-sizing: border-box;
         transition: border 0.2s ease;
     }
-
     input[type="text"]:focus {
         border-color: #2196f3;
         outline: none;
         box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
     }
-
     label {
         display: block;
         margin-bottom: 8px;
@@ -81,16 +74,13 @@
         font-size: 0.95em;
         transition: color 0.2s ease;
     }
-
     label:hover {
         color: #1565c0;
     }
-
     input[type="radio"] {
         margin-right: 8px;
         accent-color: #2196f3;
     }
-
     button {
         display: block;
         width: 220px;
@@ -105,12 +95,10 @@
         cursor: pointer;
         transition: transform 0.2s ease, background 0.3s ease;
     }
-
     button:hover {
         transform: translateY(-3px);
         background: linear-gradient(90deg, #1e88e5, #1976d2);
     }
-
     #score {
         text-align: center;
         margin-top: 25px;
@@ -118,21 +106,12 @@
         font-weight: bold;
         color: #0d47a1;
     }
-
     /* Mobile Responsive */
     @media (max-width: 600px) {
-        body {
-            padding: 12px;
-        }
-        form {
-            padding: 15px;
-        }
-        .question {
-            padding: 14px;
-        }
-        button {
-            width: 100%;
-        }
+        body { padding: 12px; }
+        form { padding: 15px; }
+        .question { padding: 14px; }
+        button { width: 100%; }
     }
 </style>
 </head>
@@ -151,7 +130,6 @@
     <label><input type="radio" name="q1" value="2"> Ringing in the ears (tinnitus)</label>
     <label><input type="radio" name="q1" value="0"> Weight loss</label>
 </div>
-
 <div class="question">
     <p>2. A headache that is described as unilateral, throbbing, or hammering, and which may last up to 72 hours, is characteristic of a:</p>
     <label><input type="radio" name="q2" value="0"> Tension headache</label>
@@ -159,7 +137,6 @@
     <label><input type="radio" name="q2" value="2"> Migraine headache</label>
     <label><input type="radio" name="q2" value="0"> Headache from acute sinusitis</label>
 </div>
-
 <div class="question">
     <p>3. The term Hematemesis is defined as:</p>
     <label><input type="radio" name="q3" value="0"> Bleeding from the nasal passages</label>
@@ -167,7 +144,6 @@
     <label><input type="radio" name="q3" value="2"> Vomited blood</label>
     <label><input type="radio" name="q3" value="0"> Drainage from the nose (rhinorrhea)</label>
 </div>
-
 <div class="question">
     <p>4. A patient presenting with a rounded, "moon-shaped" face, thin skin, and Hirsutism may be exhibiting facies associated with:</p>
     <label><input type="radio" name="q4" value="0"> Hyperthyroidism</label>
@@ -175,7 +151,6 @@
     <label><input type="radio" name="q4" value="0"> Bell's palsy</label>
     <label><input type="radio" name="q4" value="0"> Down syndrome</label>
 </div>
-
 <div class="question">
     <p>5. When inspecting the thyroid gland, the examiner watches for the gland's movement. What is the expected direction of movement upon swallowing?</p>
     <label><input type="radio" name="q5" value="0"> Downward movement</label>
@@ -183,7 +158,6 @@
     <label><input type="radio" name="q5" value="0"> Lateral deviation</label>
     <label><input type="radio" name="q5" value="0"> No movement</label>
 </div>
-
 <div class="question">
     <p>6. In a patient with a CN XII lesion resulting in asymmetric protrusion of the tongue, the tongue will point:</p>
     <label><input type="radio" name="q6" value="0"> Away from the lesion</label>
@@ -191,7 +165,6 @@
     <label><input type="radio" name="q6" value="0"> Upward</label>
     <label><input type="radio" name="q6" value="0"> To the uvula</label>
 </div>
-
 <div class="question">
     <p>7. A patient whose obesity is characterized by a greater proportion of fat in the abdomen (an "Apple" shape) is classified as having:</p>
     <label><input type="radio" name="q7" value="0"> Gynoid obesity</label>
@@ -199,7 +172,6 @@
     <label><input type="radio" name="q7" value="2"> Android obesity</label>
     <label><input type="radio" name="q7" value="0"> Marfanoid body habitus</label>
 </div>
-
 <div class="question">
     <p>8. Which odor on the breath is suggested as a diagnostic clue for Diabetes?</p>
     <label><input type="radio" name="q8" value="0"> Scent of Alcohol</label>
@@ -207,7 +179,6 @@
     <label><input type="radio" name="q8" value="2"> Fruity odor</label>
     <label><input type="radio" name="q8" value="0"> Rotten eggs</label>
 </div>
-
 <div class="question">
     <p>9. According to JNC 8, a systolic 135 mmHg / diastolic 85 mmHg is:</p>
     <label><input type="radio" name="q9" value="0"> Normal</label>
@@ -215,7 +186,6 @@
     <label><input type="radio" name="q9" value="2"> Stage 1 hypertension</label>
     <label><input type="radio" name="q9" value="0"> Stage 2 hypertension</label>
 </div>
-
 <div class="question">
     <p>10. Temperature 0.4°C-0.5°C higher than oral temperature is:</p>
     <label><input type="radio" name="q10" value="0"> Axillary</label>
@@ -230,55 +200,46 @@
     <label><input type="radio" name="q11" value="0"> True</label>
     <label><input type="radio" name="q11" value="2"> False</label>
 </div>
-
 <div class="question">
     <p>12. Patient is "alert" if they attend to questions and respond appropriately.</p>
     <label><input type="radio" name="q12" value="2"> True</label>
     <label><input type="radio" name="q12" value="0"> False</label>
 </div>
-
 <div class="question">
     <p>13. Axillary temperature is higher than oral temperature.</p>
     <label><input type="radio" name="q13" value="0"> True</label>
     <label><input type="radio" name="q13" value="2"> False</label>
 </div>
-
 <div class="question">
     <p>14. Hair inspection includes quantity, distribution, texture, and loss pattern.</p>
     <label><input type="radio" name="q14" value="2"> True</label>
     <label><input type="radio" name="q14" value="0"> False</label>
 </div>
-
 <div class="question">
     <p>15. Posterior thyroid palpation: flex neck forward to relax SCM.</p>
     <label><input type="radio" name="q15" value="2"> True</label>
     <label><input type="radio" name="q15" value="0"> False</label>
 </div>
-
 <div class="question">
     <p>16. If pulse is fast/slow, count for 30 sec and multiply by 2.</p>
     <label><input type="radio" name="q16" value="0"> True</label>
     <label><input type="radio" name="q16" value="2"> False</label>
 </div>
-
 <div class="question">
     <p>17. Nasal polyps are pale saclike inflamed growths.</p>
     <label><input type="radio" name="q17" value="2"> True</label>
     <label><input type="radio" name="q17" value="0"> False</label>
 </div>
-
 <div class="question">
     <p>18. Internal nose inspection: speculum directed posteriorly then downward.</p>
     <label><input type="radio" name="q18" value="2"> True</label>
     <label><input type="radio" name="q18" value="0"> False</label>
 </div>
-
 <div class="question">
     <p>19. Normal lymph nodes are fixed and non-movable.</p>
     <label><input type="radio" name="q19" value="0"> True</label>
     <label><input type="radio" name="q19" value="2"> False</label>
 </div>
-
 <div class="question">
     <p>20. Posture assessment: stand comfortably erect as appropriate for age.</p>
     <label><input type="radio" name="q20" value="2"> True</label>
@@ -346,11 +307,18 @@ function specialAlert(el){
 
 function submitQuiz() {
     let score = 0;
+    let wrongList = [];
 
     // Multiple choice & true/false (1-20)
     for(let i=1;i<=20;i++){
         const q = document.querySelector(`input[name=q${i}]:checked`);
-        if(q) score += parseInt(q.value);
+        const correct = q ? parseInt(q.value) : 0;
+        if(q){
+            score += correct;
+            if(correct===0) wrongList.push({qNum:i, correct: "Check correct option with value 2"});
+        } else {
+            wrongList.push({qNum:i, correct: "No answer selected"});
+        }
     }
 
     // Fill in the blank & short answer (21-30)
@@ -360,36 +328,44 @@ function submitQuiz() {
         q23: "Timing",
         q24: "VII",
         q25: "14 – 20",
-        q26: ["Tense", "bulging anterior fontanelle", "Dilated scalp veins", "Cracked pot", "Papilledema", "Abducent palsy", "Lethargy", "Setting sun", "Nausea", "vomiting", "Headache", "Positive transillumination"],
-        q27: ["Tumor", "Abscess", "Mass lesion"],
+        q26: ["Tense","bulging anterior fontanelle","Dilated scalp veins","Cracked pot","Papilledema","Abducent palsy","Lethargy","Setting sun","Nausea","vomiting","Headache","Positive transillumination"],
+        q27: ["Tumor","Abscess","Mass lesion"],
         q28: "Usually soft and slightly compressible",
-        q29: ["Kyphosis", "Kyphotic spine"],
+        q29: ["Kyphosis","Kyphotic spine"],
         q30: "3"
     };
     for(const key in answers){
         const val = document.forms["quizForm"][key].value.trim();
+        let correct=false;
         if(Array.isArray(answers[key])){
-            if(answers[key].some(a => a.toLowerCase() === val.toLowerCase())) score += 2;
+            correct = answers[key].some(a => a.toLowerCase() === val.toLowerCase());
         } else {
-            if(val.toLowerCase() === answers[key].toLowerCase()) score += 2;
+            correct = val.toLowerCase() === answers[key].toLowerCase();
         }
+        if(correct) score += 2;
+        else wrongList.push({qNum:key.substring(1), correct: Array.isArray(answers[key])?answers[key].join(", "):answers[key]});
     }
 
-    // Check if special question answered
+    // Special question
     const special = document.querySelector('input[name="q31"]:checked');
-    if(!special){
-        alert("Please answer the special question!");
-        return;
-    } else {
-        if(special.value === "no"){
-            score = 0; // Override score if 'no'
-        }
-    }
+    if(!special){ alert("Please answer the special question!"); return; }
+    else if(special.value === "no") score = 0;
 
-    document.getElementById("score").textContent = "Your score is: " + score + " / 60";
+    // Show score
+    let scoreDiv = document.getElementById("score");
+    scoreDiv.textContent = "Your score is: " + score + " / 60";
+
+    // Show wrong answers
+    if(wrongList.length > 0){
+        let html = "<h3>Wrong Questions and Correct Answers:</h3><ul>";
+        wrongList.forEach(item => {
+            html += `<li>Question ${item.qNum}: Correct answer = ${item.correct}</li>`;
+        });
+        html += "</ul>";
+        scoreDiv.innerHTML += html;
+    }
 }
 </script>
 
 </body>
 </html>
-
